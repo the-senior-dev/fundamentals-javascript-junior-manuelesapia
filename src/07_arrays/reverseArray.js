@@ -7,6 +7,7 @@
  */
 function reverseArray(arr) {
     // Your code here
+    return [...arr].reverse();
 }
 
 module.exports = reverseArray;

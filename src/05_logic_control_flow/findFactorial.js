@@ -8,6 +8,12 @@
 // Recommended: use a while of for loop to solve the problem
 function findFactorial(n) {
     // Your code here
+    let result = 1;
+
+    for (let i = 1; i <= n; i++){
+         result *= i;
+    };
+    return result;
 }
 
 module.exports = findFactorial;

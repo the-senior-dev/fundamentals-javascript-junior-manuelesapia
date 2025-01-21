@@ -9,6 +9,14 @@
  **/
 function sumFirstNNumbers(n) {
     // Your code here
+    let result = 3;
+
+    for (let i = 3; i <= n; i++){
+        result += i;
+    }
+
+    return result;
+
 }
 
 
